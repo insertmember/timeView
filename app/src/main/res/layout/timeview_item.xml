@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <com.tongna.timeview.NumberPickerView
+        android:id="@+id/np_md"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:npv_ShowCount="1"
+        app:npv_ItemPaddingHorizontal="5dp"
+        app:npv_ItemPaddingVertical="5dp"
+        app:npv_DividerColor="@color/arg_999999"
+        app:npv_TextColorNormal="@color/arg_999999"
+        app:npv_TextColorSelected="@color/arg_666666"
+        app:npv_TextSizeNormal="12sp"
+        app:npv_TextSizeSelected="18sp"
+        app:npv_WrapSelectorWheel="false"
+        />
+    <com.tongna.timeview.NumberPickerView
+        android:id="@+id/np_hm"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        app:npv_ShowCount="1"
+        app:npv_DividerColor="@color/arg_999999"
+        app:npv_TextColorNormal="@color/arg_999999"
+        app:npv_TextColorSelected="@color/arg_666666"
+        app:npv_TextSizeNormal="12sp"
+        app:npv_TextSizeSelected="18sp"
+        app:npv_WrapSelectorWheel="false"
+        />
+</LinearLayout>
